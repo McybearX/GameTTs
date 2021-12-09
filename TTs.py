@@ -168,7 +168,7 @@ def satu():
          Soal1()
      else :
          print ('Tidak ada pilihan!!!')
-         clear
+         os.system("clear") 
          satu()
 
 def Soal2():

@@ -197,7 +197,7 @@ def lipih():
      elif lipih == "lanjut":
          print ('loading...')
          time.sleep(2)
-elif lipih == "ulang":
+     elif lipih == "ulang":
          print ('loading...')
          time.sleep(2) , os.system("clear")
          baner()

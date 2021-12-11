@@ -5,6 +5,8 @@
 import time,os,sys
 
 os.system ('clear')
+os.system ("python load.py")
+
 
 def ahh(s):
     for c in s + '\n':
@@ -38,6 +40,7 @@ def cod():
 \x1b[1;91m   ╚═╝         ╚═╝    \x1b[1;97m ██████        """) , time.sleep(2)
 
 def show_m3nu():
+     os.system ("clear")
      aahh("""\n
        \x1b[1;90m      ▄▄                     ▗▄▄▄▖▗▄▄▄▖
            \x1b[1;91m █▀▀▌                    ▝▀█▀▘▝▀█▀▘
